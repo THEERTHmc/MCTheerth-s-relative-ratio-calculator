@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Number Manipulation</title>
-    <style>
+    <title>MCT Number Of Neutrons Calculator</title>
+    <style
         body {
             font-family: Arial, sans-serif;
             text-align: center;
@@ -26,8 +26,8 @@
     </style>
 </head>
 <body>
-    <h2>Number Manipulation</h2>
-    <input type="number" id="inputNumber" placeholder="Enter a number">
+    <h2>MCT Number Of Neutrons Calculator</h2>
+    <input type="number" id="inputNumber" placeholder="Enter number of protons">
     <button onclick="calculate()">Calculate</button>
     <div id="output"></div>
 
@@ -37,7 +37,7 @@
             var d = inputNumber / 1.8636363636363636363636363636363;
             var n = inputNumber + d;
             var mass = inputNumber + n;
-            document.getElementById("output").innerHTML = "D: " + d.toFixed(2) + "<br>N: " + n.toFixed(2) + "<br>Mass: " + mass.toFixed(2);
+            document.getElementById("output").innerHTML = "Difference: " + d.toFixed(2) + "<br>Neutrons: " + n.toFixed(2) + "<br>Mass: " + mass.toFixed(2);
         }
     </script>
 </body>
